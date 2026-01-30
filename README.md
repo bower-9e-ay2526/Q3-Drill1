@@ -1,1 +1,34 @@
 # Q3-Drill1
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Basic Calculator</title>
+</head>
+<body>
+    
+<div class="container">
+    <h1> Basic Calculator </h1>
+    <img src="calc.png" alt="calculator" height="200px">
+    <p>Click button to multiply
+        <br>
+        25 and 58
+    </p> <br>
+    <p id="Answer"> Answer:</p>
+    <br>
+    <button type="button" class="btn btn-primary"onclick="window.location.reload()">Refresh</button>
+    <button type="button" class="btn btn-primary"onclick="
+    let var1 =25;
+    let var2 =58;
+    let Answer = var1*var2;//formula
+    document.getElementById('Answer').innerHTML='Answer:'+ Answer; ">Calculate</button>
+    
+</div>
+   
+</body>
+</html> 
