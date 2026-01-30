@@ -1,0 +1,29 @@
+body {
+    background-image: url(https://i.pinimg.com/1200x/f6/65/39/f665394416ec570e357a0ac29b8ec2f8.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.container{
+    background-color: rgba(235, 202, 213, 0.826);
+    border: 3px dotted gray;
+    width: 70%;
+    margin: 0px auto;
+    padding: 25px;
+        text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+button{
+    text-align: center;
+    display: inline-block;
+    margin: 10px auto;
+}
+
